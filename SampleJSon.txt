@@ -1,0 +1,5 @@
+{
+  "t": 123456.789,          // timestamp from audio callback
+  "bpm": 128.3,             // latest BPM estimate, or null if unknown
+  "bands": [0.0, ..., 1.0]  // 32 normalized magnitudes
+}
